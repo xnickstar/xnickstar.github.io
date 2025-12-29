@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nik - Communications & Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <a href="#home" class="logo">Nik</a>
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <div class="hero-badge">✨ Open to New Projects</div>
+                    <h1>Meet Nik, <span class="accent-text">your communications partner.</span></h1>
+                    <p class="subtitle">Campaign strategy, stakeholder engagement, and content that drives real results.</p>
+                    <a href="#work" class="cta-button">View My Work</a>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">40%</div>
+                            <div class="stat-label">Avg. Engagement Increase</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Successful Campaigns</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Replace this div with an actual image: <img src="your-photo.jpg" alt="Nik"> -->
+                    <div class="image-placeholder">
+                        <span>Your Photo Here</span>
+                        <p>Professional headshot or workspace photo<br>Recommended: 600x700px</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <h2>Selected Work</h2>
+            <p class="section-intro">Strategic campaigns that deliver measurable impact.</p>
+            
+            <!-- Featured Project 1 - Two Column -->
+            <div class="featured-project">
+                <div class="featured-image">
+                    <!-- Replace with actual campaign image: <img src="movember-campaign.jpg" alt="Movember Campaign"> -->
+                    <div class="image-placeholder large">
+                        <span>Campaign Visual</span>
+                        <p>Upload Movember campaign materials<br>Screenshots, posters, or presentation slides<br>Recommended: 800x600px</p>
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <div class="project-label">Featured Campaign</div>
+                    <h3>Movember 2024: Authentic Engagement</h3>
+                    <p class="lead">Transformed a low-awareness internal initiative into a company-wide movement, achieving 40% participation—nearly triple the previous year.</p>
+                    
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-number">40%</div>
+                            <div class="highlight-text">Participation Rate</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-number">3x</div>
+                            <div class="highlight-text">Year-on-Year Growth</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-number">£5k+</div>
+                            <div class="highlight-text">Funds Raised</div>
+                        </div>
+                    </div>
+                    
+                    <button class="project-button" onclick="openModal('modal1')">View Full Case Study</button>
+                </div>
+            </div>
+
+            <!-- Featured Project 2 - Reverse Two Column -->
+            <div class="featured-project reverse">
+                <div class="featured-image">
+                    <!-- Replace with actual image: <img src="diversity-conference.jpg" alt="Diversity Conference"> -->
+                    <div class="image-placeholder large">
+                        <span>Event Materials</span>
+                        <p>Upload conference visuals<br>Event photos, presentation slides, or branding<br>Recommended: 800x600px</p>
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <div class="project-label">Event Strategy</div>
+                    <h3>Diversity Conference: Strategic Positioning</h3>
+                    <p class="lead">Led positioning and stakeholder messaging for a company-wide diversity initiative, ensuring authentic engagement beyond compliance.</p>
+                    
+                    <div class="project-meta">
+                        <span class="meta-tag">Stakeholder Engagement</span>
+                        <span class="meta-tag">Event Communications</span>
+                        <span class="meta-tag">Internal Positioning</span>
+                    </div>
+                    
+                    <button class="project-button" onclick="openModal('modal2')">View Full Case Study</button>
+                </div>
+            </div>
+
+            <!-- Additional Projects Grid -->
+            <div class="additional-projects">
+                <h3 class="projects-subheading">More Projects</h3>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-card-image">
+                            <!-- Replace: <img src="project3.jpg" alt="Project 3"> -->
+                            <div class="image-placeholder medium">
+                                <span>Project Image</span>
+                                <p>600x400px</p>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h4>Digital Campaign Title</h4>
+                            <p>Brief description of campaign impact and key results achieved through strategic communications.</p>
+                            <div class="card-tags">
+                                <span class="tag">Multi-channel</span>
+                                <span class="tag">Digital</span>
+                            </div>
+                            <button class="link-button" onclick="openModal('modal3')">Read More →</button>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-image">
+                            <!-- Replace: <img src="project4.jpg" alt="Project 4"> -->
+                            <div class="image-placeholder medium">
+                                <span>Project Image</span>
+                                <p>600x400px</p>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h4>Strategic Initiative</h4>
+                            <p>Overview of strategic communications work that drove measurable business outcomes.</p>
+                            <div class="card-tags">
+                                <span class="tag">Strategy</span>
+                                <span class="tag">Analytics</span>
+                            </div>
+                            <button class="link-button" onclick="openModal('modal4')">Read More →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- Dark Section - Header -->
+            <div class="about-header">
+                <h2>About</h2>
+                <p class="about-intro">I'm a communications and marketing professional who believes in <em>strategy meets storytelling</em>.</p>
+            </div>
+        </div>
+        
+        <!-- Light Section - Text Content -->
+        <div class="about-content-light">
+            <div class="container">
+                <p>With experience spanning campaign development, stakeholder engagement, and content strategy, I've helped organizations transform how they communicate—both internally and externally. My approach combines data-driven insights with authentic messaging that resonates.</p>
+                
+                <p>Whether it's positioning an internal initiative to gain leadership buy-in or creating multi-channel campaigns that drive measurable engagement, I focus on work that delivers real impact.</p>
+            </div>
+        </div>
+        
+        <!-- Dark Section - Skills Cards -->
+        <div class="about-skills-dark">
+            <div class="container">
+                <div class="skills-list">
+                    <h3>What I Do</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-text">
+                                <strong>Campaign Strategy</strong>
+                                <p>End-to-end campaign development and execution</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🎯</div>
+                            <div class="skill-text">
+                                <strong>Stakeholder Engagement</strong>
+                                <p>Building buy-in across all organizational levels</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">✍️</div>
+                            <div class="skill-text">
+                                <strong>Content & Copywriting</strong>
+                                <p>Messaging that cuts through the noise</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📈</div>
+                            <div class="skill-text">
+                                <strong>Performance Analysis</strong>
+                                <p>Data-driven insights and optimization</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">Interested in working together or want to chat about communications strategy?</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-button">Email Me</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-button secondary">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nik. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modals for Project Details -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h3>Movember Campaign 2024</h3>
+            
+            <div class="modal-section">
+                <h4>The Brief</h4>
+                <p>Low awareness of Movember internally with previous campaigns achieving minimal engagement. Leadership wanted authentic participation rather than tick-box compliance.</p>
+            </div>
+
+            <div class="modal-section">
+                <h4>My Role</h4>
+                <p>Campaign strategy, communications planning, visual identity development, and internal messaging across all channels.</p>
+            </div>
+
+            <div class="modal-section">
+                <h4>The Approach</h4>
+                <p>Positioned the campaign as community-building rather than corporate obligation. Secured leadership buy-in through early stakeholder engagement. Developed content calendar mixing educational content with personal stories. Created visual identity that balanced professionalism with approachability.</p>
+            </div>
+
+            <div class="modal-section">
+                <h4>Results</h4>
+                <p>40% participation rate (up from 15% previous year). Positive feedback from leadership team. Raised £X for men's health charities.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h3>Diversity Conference</h3>
+            
+            <div class="modal-section">
+                <h4>The Brief</h4>
+                <p>Add details about the project brief and objectives here.</p>
+            </div>
+
+            <div class="modal-section">
+                <h4>My Role</h4>
+                <p>Describe your specific role and responsibilities.</p>
+            </div>
+
+            <div class="modal-section">
+                <h4>The Approach</h4>
+                <p>Explain your strategy and execution.</p>
+            </div>
+
+            <div class="modal-section">
+                <h4>Results</h4>
+                <p>Share measurable outcomes and impact.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h3>Project Title Here</h3>
+            <p>Add your project details here following the same format as above.</p>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h3>Another Project</h3>
+            <p>Add your project details here following the same format as above.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
